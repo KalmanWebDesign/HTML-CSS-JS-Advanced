@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Fishing reels and lures">
+    <meta name="keywords" content="Lures, reels, fishing equipment">
+    <meta name="author" content="kalman web design">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="icon" href="./images/bass-expert-fav.png" type="image/png">
+    <script src="./scripts/scripts.js" defer></script>
+    <script src="./scripts/products.js" defer></script>
+    <title>Bass Expert Shop</title>
+</head>
+
+<body>
+    <!-- mobile overlay -->
+    <div class="mobile-overlay nav-links" aria-label="mobile navigation">
+        <i class="fa-solid fa-x"></i>
+        <a href="index.html">Home</a>
+        <a href="index.html#products">Shop</a>
+    </div>
+
+    <!-- nav -->
+    <header>
+        <div class="header-wrapper">
+            <a href="index.html#products">
+                <h4>Lure Sale | Shop Now ></h4>
+            </a>
+        </div>
+        <nav class="container">
+            <a href="index.html">
+                <img src="./images/bass-expert-logo.png" alt="bass expert logo" loading="lazy">
+            </a>
+            <div class="nav-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                <input type="text" placeholder="What can we help you find?">
+            </div>
+            <div class="full-nav nav-links" aria-label="navbar links">
+                <a href="index.html">Home</a>
+                <a href="index.html#products">Shop</a>
+            </div>
+            <!-- mobile nav button -->
+            <i class="fa-solid fa-bars mobile-nav"></i>
+        </nav>
+        <hr>
+    </header>
+
+    <!-- hero -->
+    <section class="hero-container" role="img" aria-label="A fisherman casting">
+        <div class="hero-content">
+            <h1>Bass Expert Shop</h1>
+            <h3>Only the best Fishing Reels & Lures</h3>
+            <a href="index.html#products">
+                <button>Shop Now</button>
+            </a>
+        </div>
+    </section>
+
+    <!-- products -->
+    <section class="container products" id="products">
+        <h2>Products</h2>
+        <div class="spacing">
+            <label for="categoryFilter">Filter:</label>
+            <select id="categoryFilter">
+                <option value="all">All</option>
+                <option value="reels">Reels</option>
+                <option value="lures">Lures</option>
+            </select>
+
+            <div class="grid">
+                
+            </div>
+        </div>
+    </section>
+    
+</body>
+
+</html>
